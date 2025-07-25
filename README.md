@@ -40,18 +40,6 @@ Users can post jobs, search for openings, and manage applications effortlessly.
 
 ---
 
-## ⚙️ Getting Started
-
-```bash
-git clone https://github.com/your-username/careeva.git
-cd careeva
-pnpm install
-pnpm dev
-
-
-
-
-
 # 💼 Careeva
 
 **Careeva**, modern teknolojilerle geliştirilen, sade ve kullanıcı dostu bir **iş ilanı platformudur**.  
@@ -83,7 +71,7 @@ Kullanıcıların ilan oluşturabileceği, iş arayabileceği ve başvuru süre�
 
 ---
 
-## ⚙️ Kurulum
+## ⚙️ Kurulum - Getting Started
 
 ```bash
 git clone 
