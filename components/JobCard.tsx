@@ -14,7 +14,7 @@ import { Separator } from "./ui/separator";
 import { Button } from "./ui/button";
 import { Badge } from "./ui/badge";
 import JobInfo from "./JobInfo";
-import DeleteJobButton from "./DeleteJobBtn";
+import DeleteJobBtn from "./DeleteJobBtn";
 
 function JobCard({ job }: { job: JobType }) {
   const date = new Date(job.createdAt).toLocaleDateString();
@@ -40,7 +40,7 @@ function JobCard({ job }: { job: JobType }) {
         <Button asChild size="sm">
           <Link href={`/jobs/${job.id}`}>edit</Link>
         </Button>
-        <DeleteJobButton />
+        <DeleteJobBtn id={job.id} />
       </CardFooter>
     </Card>
   );
