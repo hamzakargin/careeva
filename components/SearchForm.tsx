@@ -45,7 +45,7 @@ function SearchContainer() {
         defaultValue={search}
       />
       <Select defaultValue={jobStatus} name="jobStatus">
-        <SelectTrigger>
+        <SelectTrigger className="h-10 w-full">
           <SelectValue />
         </SelectTrigger>
         <SelectContent>
